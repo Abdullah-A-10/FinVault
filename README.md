@@ -1,7 +1,6 @@
-# Banking System
+# FinVault - Banking System
 
-A Java-based Banking System with PostgreSQL integration that demonstrates Object-Oriented Programming concepts and database interaction.
-
+FinVault is a secure and modern Java-based banking management system designed to simulate real-world financial operations with an intuitive user interface and strong focus on security.
 ## Overview
 
 This banking system implements core banking functionality including:
@@ -12,7 +11,7 @@ This banking system implements core banking functionality including:
 - Account balance tracking and transaction history
 - Interest calculation for savings accounts
 
-The system uses Java for its implementation and PostgreSQL for persistent storage.
+The system uses Java for its backend implementation , Java Swing for an intuitive interface and PostgreSQL for persistent storage.
 
 ## Database Schema
 
@@ -48,6 +47,21 @@ com.banking
 │   ├── CustomerDAOImpl.java
 │   ├── TransactionDAO.java
 │   └── TransactionDAOImpl.java
+├── gui
+│   ├── dialogs
+│   │   ├── AccountDialog.java
+│   │   └── CustomerDialog.java
+│   │
+│   ├── panels
+│   │   ├── DashboardPanel.java
+│   │   ├── AccountManagementPanel.java
+│   │   ├── CustomerManagementPanel.java
+│   │   ├── TransactionPanel.java
+│   │   ├── ReportsPanel.java
+│   │   ├── SettingsPanel.java
+│   │   └── LoginPanel.java
+│   │
+│   └── MainFrame.java
 ├── model
 │   ├── Account.java
 │   ├── CurrentAccount.java
