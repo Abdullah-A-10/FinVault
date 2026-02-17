@@ -34,6 +34,28 @@ Views are also created for convenient data access:
 - **Composition**: Customer has a collection of accounts
 - **Abstraction**: Base abstract Account class with concrete implementations
 
+## Screenshots / Demo
+
+Here are some screenshots of the FinVault banking system:
+
+### Dashboard
+![Dashboard](FV.png)
+
+### Customer Management
+![Customer Management](FV2.png)
+
+### Account Management
+![Account Management](FV3.png)
+
+### Transaction Panel
+![Transaction Panel](FV4.png)
+
+![Transaction Panel](FV5.png)
+
+### Reports Panel
+![Reports Panel](FV6.png)
+
+---
 ## Project Structure
 
 ```java
