@@ -1,6 +1,6 @@
 # 💰 FinVault - Banking System  💳
 
-FinVault is a secure and modern Java-based banking management system designed to simulate real-world financial operations with an intuitive user interface and strong focus on security.
+FinVault is a secure and modern Java-based Banking management system designed to simulate real-world financial operations with an intuitive user interface and strong focus on security.
 ## Overview
 
 This banking system implements core banking functionality including:
